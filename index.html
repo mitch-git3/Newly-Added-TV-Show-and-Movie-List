@@ -41,7 +41,7 @@
         <input type="text" autocomplete="off" onfocus="this.value=''; searchOnPage('');"
         onblur="if(this.value==''){this.value='Search Movie Name'};"
         onkeyup="searchOnPage(this.value.toLowerCase());"
-        id="search_box" value="Search TV Show Name" />
+        id="search_box" value="Search Movie Name" />
         <input type="submit" id="search_button" value="Search" />
         <div id="search_result"></div>
 	<!-- add home button -->
@@ -54,7 +54,7 @@
          </select>
          </div>
          <div id="date-select-container">
-           <label for="date-select" class="date-label">Search By Year:</label>
+           <label for="date-select" class="date-label">Search By Date:</label>
            <select id="date-select">
              <option value="all">All</option>
            </select>
@@ -2471,5 +2471,9 @@
                         });
                 
 </script>
+<script src="lib/sortMovies.js"></script>
+ <script src="lib/year and genre filter.js" defer></script>
+       <!-- Add the no-results-message element -->
+<div id="no-results-message" style="display: none;"></div>
   </body>
 </html>
