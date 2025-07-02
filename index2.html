@@ -21,6 +21,7 @@
                                   checkHash();
                                 });            
 </script>
+<link rel="stylesheet" href="lib/media queries tv shows.css">
   </head>
   <body>
     <div id="overlay"></div>
@@ -33,7 +34,7 @@
        <li><a href="index2.html"target="_blank">Link Page Newly Added:TV Shows</a></li>
        <li><a href="index.html"target="_blank">Link Page Newly Added:Movies</a></li>
        <li><a href="https://mitch-git1.github.io/full-list-movies-and-tv-shows/index2.html"target="_blank">Link Page Full Tv Show List</a></li>
-       <li><a href="https://docs.google.com/document/d/16rDBHyFaKLxWH84kPfSPaCi_l1JyxECn/edit?usp=sharing&ouid=107722713483068785243&rtpof=true&sd=true"target="_blank">CheckList Link Page Newly Added Tv Shows</a></li>
+       <li><a href="https://docs.google.com/document/d/1KVFEZ8pEfaFecbF5TeT9P2O5Gu7D9Ri7/edit?usp=sharing&ouid=107722713483068785243&rtpof=true&sd=true"target="_blank">CheckList Link Page Newly Added Tv Shows</a></li>
        </ul>
        </div>
       <div class="infoContainer">
@@ -44,9 +45,12 @@
         id="search_box" value="Search TV Show Name" />
         <input type="submit" id="search_button" value="Search" />
         <div id="search_result"></div>
+        <div class="homepage-link-container">
            <!-- add home button -->
        <a href="https://mitch-git5.github.io/homepage-one-stop-tv-delight-/index.html" class="homepage-link">Home Button</a>
          </div>
+         </div>
+         <div class="dropdown-container">
          <div id="genre-select-container">
          <label for="genre-select" class="genre-label">Search By Genre:</label>
          <select id="genre-select">
@@ -59,6 +63,13 @@
              <option value="all">All</option>
            </select>
          </div>
+         <div id="age-rating-select-container">
+         <label for="age-rating-select" class="age-rating-label">Search By Age Rating:</label>
+         <select id="age-rating-select">
+         <option value="all">All</option>
+        </select>
+        </div>
+        </div>
         <div class="infoBackTitleContainer">
           <span class="infoBackTitle">Newly Added</span>
           <hr class="subTitleSeprator" />
@@ -67,7 +78,7 @@
         <div class="infoContainerTextContainer">
           <div class="name">
             <span class="titleNoBlock">Total TV Shows:</span>
-            <span>73</span>
+            <span>84</span>
           </div>
           <div class="name">
             <span class="titleNoBlock">Request Page Link:</span>
@@ -136,15 +147,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=6wN8NSibhK0" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">cancelled</span>
           </div>
-        <div class="anilink name">
+        <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -206,15 +217,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=jpQRFLUF0bY"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">cancelled</span>
           </div>
-        <div class="anilink name">
+        <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -276,15 +287,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=ZisjHenTQFs"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+        <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">UnComplete</span>
           </div>
@@ -346,15 +357,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=C4W4L9TLJa8"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG</span>
+            <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -416,15 +427,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=VdahDEpqPA8"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -486,15 +497,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=NbJQK4XbDRU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Canceled</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">Unknown</span>
+            <span class="value">TV:Unknown</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -556,15 +567,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=BwYBw1raC2o"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -626,15 +637,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=YDbnY9Obsfs"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -696,15 +707,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href=https://www.youtube.com/watch?v=gEgKZ4cjW3o""target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG</span>
+            <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -744,11 +755,11 @@
           </div>
           <div class="aniSeasons name">
             <span class="titleNoBlock">Seasons:</span>
-            <span class="value">2</span>
+            <span class="value">3</span>
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">16</span>
+            <span class="value">22</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -766,15 +777,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=oqxAJKy0ii4"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -836,15 +847,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=igUQwX6vZRU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -906,15 +917,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=0ZfZj2bn_xg"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -976,15 +987,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=u2Yj_rmCzhE"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1046,15 +1057,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=vUSHKVUKbqA"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuinh</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1116,15 +1127,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=7tVtP4aZIGE&t=21s"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1186,15 +1197,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=s4B1qCBmnKY"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">Unknown</span>
+            <span class="value">TV:Unknown</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1256,15 +1267,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=qt8Ubudtoow&t=36s"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1326,15 +1337,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=ih2ODfe71mI"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1396,15 +1407,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=Hywe0zDSSSE"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1466,15 +1477,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=j0WSd4qds4A"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1536,15 +1547,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=Vm4tx1O9GAc"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1606,15 +1617,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=e_sppbekwOE"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">Unknown</span>
+            <span class="value">TV:Unknown</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1676,15 +1687,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=XKW-9ORTvC4"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1747,15 +1758,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=MVphWg93hSI"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Canceled</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1818,15 +1829,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=waJKJW_XU90"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1889,15 +1900,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=y3FzXBkCUAg" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1960,15 +1971,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=7xALolZzhSM" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2031,15 +2042,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=0VjeURFk5_s" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2102,15 +2113,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=mL46thdM0WE" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2173,15 +2184,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=bI6HlAmOgt4" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">Unknown</span>
+            <span class="value">TV:Unknown</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2244,15 +2255,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=VnXC3BAGR5s" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">UnComplete</span>
           </div>
@@ -2315,15 +2326,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=1kETt59yn6A" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2386,15 +2397,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=XjK8gozeTbg" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2457,15 +2468,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=dtohea4CFbE" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2528,15 +2539,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=xz2ty6KGBSg" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">Unknown</span>
+            <span class="value">TV:Unknown</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2599,15 +2610,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=yV9cYkCQxP4" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2670,15 +2681,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=ebOtolfNT_g" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2741,15 +2752,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=FOfBiiPdQPI" target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2811,15 +2822,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=XmiGkuMWJ94"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2881,15 +2892,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=OlEqHXRrcpc"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2951,15 +2962,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=B4WAcOJ5bvo"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3021,15 +3032,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=pccntCyI3dc"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3091,15 +3102,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=E8N3iu7PkJ4"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3161,15 +3172,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=-m1JjIFXLuM"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3231,15 +3242,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=daeL3XxrS-c"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3301,15 +3312,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=thA5bHMjOI4"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3371,15 +3382,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=0D2IT2qPA7A"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3442,15 +3453,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=AVL918qZg2k"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3513,15 +3524,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=RePjWY4ESyQ"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3584,15 +3595,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=WKTwtIL4xyk"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:16</span>
+            <span class="value">TV:16</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3655,15 +3666,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=9MRebuiHW5I"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:16</span>
+            <span class="value">TV:16</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3726,15 +3737,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=7fQf2o2kEMQ"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3797,15 +3808,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=GrGfIHBIVL4"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3868,15 +3879,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=4x2NzusLAqk"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">UnComplete</span>
           </div>
@@ -3939,15 +3950,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=2fjPFt8cpic"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3992,7 +4003,7 @@
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">7</span>
+            <span class="value">8</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -4010,15 +4021,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=3Ht_19FeJC4"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:16</span>
+            <span class="value">TV:16</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4081,15 +4092,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=EIQuE7JGXU8"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4152,15 +4163,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=iVRFMd6dEOE"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4223,15 +4234,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=MkyT1BOOcmk"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4293,15 +4304,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=dIUyP-tKWbw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4363,15 +4374,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=VTwbSZvmhX0"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4433,15 +4444,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=R7xl9QjtNDc"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4503,15 +4514,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=8U11H-3j3Ho"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4573,15 +4584,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=72hK6FUmm8o"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4625,7 +4636,7 @@
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">3</span>
+            <span class="value">7</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -4643,15 +4654,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=ih01iblDuHg"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4713,15 +4724,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=2iNiT1GAC94"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4783,15 +4794,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=Qr8aGufd5YU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4853,15 +4864,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=kW-hafmct8Y"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4905,7 +4916,7 @@
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">4</span>
+            <span class="value">8</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -4923,15 +4934,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=vEioDeOiqEs"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4993,15 +5004,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=LSli17bsonk"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5063,15 +5074,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=kKGq8MIJNj4"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5133,15 +5144,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=NgZXnTZbF3g"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5149,12 +5160,780 @@
         <div class="qBar"></div>
       </div>
 
+       <div id="tvshow_74" class="aniContainer aniOrder0">
+        <a href="images/fanart/74.jpg" class="fancybox" rel="74">
+          <div class="fanArt" id="fanart_74">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/The%20Better%20Sister%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="74" id="plot_74_icon"></div>
+        <a target="_BLANK" href="The%20Better%20Sister%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="74" id="plot_74">
+          <span class="value">Chloe moves in New York's most elite circles with her lawyer husband Adam and teenage son Ethan by her side while her estranged sister Nicky tries to make ends meet and stay clean. When Adam is brutally murdered, the investigation sends shockwaves through the family and exposes long-buried secrets.</span>
+        </div>
+        <span class="showId">#74</span>
+        <div class="posterContainer">
+          <a href="images/The%20Better%20Sister%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="74">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/The%20Better%20Sister%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">The Better Sister</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/05/29</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">8</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">7.3</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Drama, Mystery</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">Prime Video, Tomorrow Studios, Fortunate Jack Productions</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=N4BGj6tCF6A"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Ended</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:14</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_75" class="aniContainer aniOrder0">
+        <a href="images/fanart/75.jpg" class="fancybox" rel="75">
+          <div class="fanArt" id="fanart_75">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/Destination%20X%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="75" id="plot_75_icon"></div>
+        <a target="_BLANK" href="Destination%20X%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="75" id="plot_75">
+          <span class="value">A group of contestants embark on mysterious road trip. Aboard a blacked-out bus, they face challenges offering location-clues while being misled, turning journey into real-life game to deduce their destination.</span>
+        </div>
+        <span class="showId">#75</span>
+        <div class="posterContainer">
+          <a href="images/Destination%20X%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="75">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/Destination%20X%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">Destination X</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/05/27</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">5</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">10.0</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Reality TV</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">NBC</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=U5SOe3XMEEQ"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Continuing</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:Unknown</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">UnComplete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_76" class="aniContainer aniOrder0">
+        <a href="images/fanart/76.jpg" class="fancybox" rel="76">
+          <div class="fanArt" id="fanart_76">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/Ironheart%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="76" id="plot_76_icon"></div>
+        <a target="_BLANK" href="Ironheart%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="76" id="plot_76">
+          <span class="value">After the events of Black Panther: Wakanda Forever, technology is pitted against magic when Riri Williams, a young, genius inventor determined to make her mark on the world, returns to her hometown of Chicago. Her unique take on building iron suits is brilliant, but in pursuit of her ambitions, she finds herself wrapped up with the mysterious yet charming Parker Robbins aka &quot;The Hood.&quot;</span>
+        </div>
+        <span class="showId">#76</span>
+        <div class="posterContainer">
+          <a href="images/Ironheart%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="76">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/Ironheart%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">Ironheart</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/06/24</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">6</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">5.7</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Science Fiction, Crime</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">Disney+, Marvel Studios, Proximity Media</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=VDZBLBzoHbE"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Continuing</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:14</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_77" class="aniContainer aniOrder0">
+        <a href="images/fanart/77.jpg" class="fancybox" rel="77">
+          <div class="fanArt" id="fanart_77">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/MobLand%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="77" id="plot_77_icon"></div>
+        <a target="_BLANK" href="MobLand%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="77" id="plot_77">
+          <span class="value">Two mob families clash in a war that threatens to topple empires and lives.</span>
+        </div>
+        <span class="showId">#77</span>
+        <div class="posterContainer">
+          <a href="images/MobLand%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="77">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/MobLand%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">MobLand</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/03/30</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">10</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">8.5</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Crime, Drama</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">Paramount+, MTV Entertainment Studios, 101 Studios</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=qKGgw7Ob5f4"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Continuing</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:MA</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_78" class="aniContainer aniOrder0">
+        <a href="images/fanart/78.jpg" class="fancybox" rel="78">
+          <div class="fanArt" id="fanart_78">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/The%20Mortician%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="78" id="plot_78_icon"></div>
+        <a target="_BLANK" href="The%20Mortician%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="78" id="plot_78">
+          <span class="value">A trusted family-owned funeral home hides behind a fa&ccedil;ade of decency and propriety to take advantage of loved ones at their most vulnerable moments.</span>
+        </div>
+        <span class="showId">#78</span>
+        <div class="posterContainer">
+          <a href="images/The%20Mortician%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="78">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/The%20Mortician%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">The Mortician</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/06/01</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">3</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">10.0</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Documentary, Crime</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">HBO, HBO Documentary Films, Number 19</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=H3PpoGH_Xlg"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Ended</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:Unknown</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_79" class="aniContainer aniOrder0">
+        <a href="images/fanart/79.jpg" class="fancybox" rel="79">
+          <div class="fanArt" id="fanart_79">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/Outrageous%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="79" id="plot_79_icon"></div>
+        <a target="_BLANK" href="Outrageous%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="79" id="plot_79">
+          <span class="value">Based on the story of the Mitford sisters, six sisters who refused to play by the rules and whose often-scandalous lives made headlines around the world. Set in the 1930s, it is a tale of betrayal, scandal, heartache and even imprisonment.</span>
+        </div>
+        <span class="showId">#79</span>
+        <div class="posterContainer">
+          <a href="images/Outrageous%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="79">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/Outrageous%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">Outrageous</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/06/19</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">6</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">10.0</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Drama</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">U&amp;Drama, UKTV, Firebird Pictures</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=JHQAYdLC0_w"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Ended</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:Unknown</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_80" class="aniContainer aniOrder0">
+        <a href="images/fanart/80.jpg" class="fancybox" rel="80">
+          <div class="fanArt" id="fanart_80">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/The%20Snake%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="80" id="plot_80_icon"></div>
+        <a target="_BLANK" href="The%20Snake%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="80" id="plot_80">
+          <span class="value">15 masters of manipulation from various persuasive professions with unique skill sets compete in an outrageous array of challenges and twists - all of which help contestants move toward becoming that week's Snake, the most powerful position in the game and ultimate decider of who stays and who goes.</span>
+        </div>
+        <span class="showId">#80</span>
+        <div class="posterContainer">
+          <a href="images/The%20Snake%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="80">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/The%20Snake%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">The Snake</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/06/10</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">3</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">6.0</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Reality TV</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">FOX, FOX Entertainment, 495 Productions</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=lGoKJYwnS9o"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Continuing</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:Unknown</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">UnComplete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_81" class="aniContainer aniOrder0">
+        <a href="images/fanart/81.jpg" class="fancybox" rel="81">
+          <div class="fanArt" id="fanart_81">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/Stick%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="81" id="plot_81_icon"></div>
+        <a target="_BLANK" href="Stick%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="81" id="plot_81">
+          <span class="value">Pryce Cahill was headed for golf greatness when an on-course meltdown derailed his career. Now struggling to stay afloat, he goes all in to mentor Santi&mdash;a teenage phenom with immense potential&mdash;and maybe save himself.</span>
+        </div>
+        <span class="showId">#81</span>
+        <div class="posterContainer">
+          <a href="images/Stick%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="81">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/Stick%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">Stick</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/06/03</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">6</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">7.4</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Comedy, Drama</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">Apple TV+ / Propagate Content / Entertainment 360/span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=72oB_zVF_6o"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Continuing</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:MA</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">UnComplete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_82" class="aniContainer aniOrder0">
+        <a href="images/fanart/82.jpg" class="fancybox" rel="82">
+          <div class="fanArt" id="fanart_82">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/The%20Survivors%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="82" id="plot_82_icon"></div>
+        <a target="_BLANK" href="The%20Survivors%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="82" id="plot_82">
+          <span class="value">Fifteen years ago, the loss of three young people tore this sleepy seaside town apart. Now, the mysterious death of a young woman dredges up the past.</span>
+        </div>
+        <span class="showId">#82</span>
+        <div class="posterContainer">
+          <a href="images/The%20Survivors%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="82">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/The%20Survivors%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">The Survivors</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/06/06</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">6</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">7.1</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Drama, Mystery</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">Netflix, Tony Ayres Productions</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=c69c1P-EURg"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Ended</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:MA</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_83" class="aniContainer aniOrder0">
+        <a href="images/fanart/83.jpg" class="fancybox" rel="83">
+          <div class="fanArt" id="fanart_83">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/The%20Waterfront%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="83" id="plot_83_icon"></div>
+        <a target="_BLANK" href="The%20Waterfront%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="83" id="plot_83">
+          <span class="value">A prominent North Carolina fishing family wades into treacherous waters to keep their crumbling business empire afloat.</span>
+        </div>
+        <span class="showId">#83</span>
+        <div class="posterContainer">
+          <a href="images/The%20Waterfront%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="83">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/The%20Waterfront%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">The Waterfront</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/06/19</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">8</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">7.6</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Drama, Crime</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">Netflix, Outerbanks Entertainment, Universal Television</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=vE-oYo1hIEs"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Continuing<span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:MA</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_84" class="aniContainer aniOrder0">
+        <a href="images/fanart/84.jpg" class="fancybox" rel="84">
+          <div class="fanArt" id="fanart_84">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/We%20Were%20Liars%20%282025%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="84" id="plot_84_icon"></div>
+        <a target="_BLANK" href="We%20Were%20Liars%20%282025%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="84" id="plot_84">
+          <span class="value">One year after a mysterious accident left her with amnesia, 17-year-old Cadence returns to Beechwood, an island off Martha's Vineyard, seeking answers. As three generations of the distinguished Sinclair family gather at their private summer utopia, no one will talk about the accident &ndash; neither her childhood friends &quot;The Liars&quot; nor her first love Gat, forcing her to uncover the truth herself.</span>
+        </div>
+        <span class="showId">#84</span>
+        <div class="posterContainer">
+          <a href="images/We%20Were%20Liars%20%282025%29-POSTER.thumb.jpg" class="fancybox" rel="84">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/We%20Were%20Liars%20%282025%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">We Were Liars</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2025/06/18</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">8</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">5.8</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Mystery, Drama</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">Prime Video, My So-Called Company, Universal Television</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=uoMLuX42pCk"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Continuing</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:14</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+ 
       <div class="footerSpacer"></div>
       <div class="footerContainer">
       </div>
     </div>
-    <script src="lib/genre list.js"></script>
-    <script src="lib/date list.js"></script>
     <script>
       const menuButton = document.getElementById('menu-button');
       const sidebarNav = document.getElementById('sidebar-nav');
@@ -5167,7 +5946,6 @@
         infoContainer.classList.toggle('sidebar-nav-open');
       });
     </script>
-    <script src="lib/data table.js"></script>
     <script type="text/javascript">
                       $(document).ready(function() {
                                 $(&quot;.fancybox&quot;).fancybox({
@@ -5183,8 +5961,9 @@
                 
 </script>
  <script src="lib/sortShows.js"></script>
- <script src="lib/year and genre filter.js" defer></script>
+ <script src="lib/filter dropdowns.js" defer></script>
        <!-- Add the no-results-message element -->
 <div id="no-results-message" style="display: none;"></div>
+<script src="lib/Iframe tv shows.js"></script>
   </body>
 </html>

@@ -21,6 +21,7 @@
                                 });
             
 </script>
+<link rel="stylesheet" href="lib/media queries movies.css">
   </head>
   <body>
     <div id="overlay"></div>
@@ -44,9 +45,12 @@
         id="search_box" value="Search Movie Name" />
         <input type="submit" id="search_button" value="Search" />
         <div id="search_result"></div>
-	<!-- add home button -->
+        <div class="homepage-link-container">
+           <!-- add home button -->
        <a href="https://mitch-git5.github.io/homepage-one-stop-tv-delight-/index.html" class="homepage-link">Home Button</a>
          </div>
+         </div>
+         <div class="dropdown-container">
          <div id="genre-select-container">
          <label for="genre-select" class="genre-label">Search By Genre:</label>
          <select id="genre-select">
@@ -54,11 +58,18 @@
          </select>
          </div>
          <div id="date-select-container">
-           <label for="date-select" class="date-label">Search By Date:</label>
+           <label for="date-select" class="date-label">Search By Year:</label>
            <select id="date-select">
              <option value="all">All</option>
            </select>
          </div>
+         <div id="age-rating-select-container">
+         <label for="age-rating-select" class="age-rating-label">Search By Age Rating:</label>
+         <select id="age-rating-select">
+         <option value="all">All</option>
+        </select>
+        </div>
+        </div>
         <div class="infoBackTitleContainer">
           <span class="infoBackTitle">Newly Added</span>
           <hr class="subTitleSeprator" />
@@ -134,9 +145,9 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=u9Mv98Gr5pY" target="_blank">trailer link</a></span>
           </div>
-         <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG-13</span>
+            <span class="value">TV:13</span>
           </div>
          </div>
         <div class="qBar"></div>
@@ -193,9 +204,9 @@
             <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=-ezfi6FQ8Ds"target="_blank">trailer link</a></span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG-13</span>
+            <span class="value">TV:13</span>
           </div>
          </div>
         <div class="qBar"></div>
@@ -252,9 +263,9 @@
              <span class="titleNoBlock">Trailer:</span>
              <span class="value"><a href="https://www.youtube.com/watch?v=__2bjWbetsA"target="_blank">trailer link</a></span>
           </div>
-         <div class="anilink name">
+                 <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG-13</span>
+            <span class="value">TV:13</span>
           </div>
          </div>
         <div class="qBar"></div>
@@ -307,9 +318,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Marc Webb</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -366,9 +377,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Marc Webb</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -425,9 +436,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Peyton Reed</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -484,9 +495,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Peyton Reed</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -543,9 +554,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Peyton Reed</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -602,9 +613,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">James Wan</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -661,9 +672,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">James Wan</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -720,9 +731,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Joss Whedon</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -779,9 +790,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Joss Whedon</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -838,9 +849,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Anthony Russo<br /> Joe Russo</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -897,9 +908,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Joe Russo<br /> Anthony Russo</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -956,9 +967,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Ryan Coogler</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1015,9 +1026,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Ryan Coogler</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1074,9 +1085,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Cate Shortland</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1133,9 +1144,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Ryan Fleck<br /> Anna Boden</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1192,9 +1203,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Scott Derrickson</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1251,9 +1262,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Sam Raimi</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1310,9 +1321,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Chlo&eacute; Zhao</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1369,9 +1380,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">James Gunn</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1428,9 +1439,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">James Gunn</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1487,9 +1498,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">James Gunn</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1546,9 +1557,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">James Gunn</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1605,9 +1616,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Louis Leterrier</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1664,9 +1675,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Jon Favreau</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1723,9 +1734,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Jon Favreau</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1782,9 +1793,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Shane Black</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1841,9 +1852,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Nia DaCosta</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1900,9 +1911,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Destin Daniel Cretton</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -1959,9 +1970,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Sam Raimi</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -2018,9 +2029,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Sam Raimi</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -2077,9 +2088,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Sam Raimi</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -2136,9 +2147,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Jon Watts</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -2195,9 +2206,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Jon Watts</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -2254,9 +2265,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Jon Watts</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -2313,9 +2324,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Kenneth Branagh</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -2372,9 +2383,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Taika Waititi</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -2431,9 +2442,9 @@
             <span class="titleNoBlock">Director(s):</span>
             <span class="value">Alan Taylor</span>
           </div>
-        <div class="anilink name">
+                <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:13</span>
+            <span class="value">TV:13</span>
           </div>
             <div class="anilink name">
            <span class="titleNoBlock">Trailer:</span>
@@ -2443,8 +2454,7 @@
         <div class="qBar"></div>
       </div>
 
-    <script src="lib/genre list.js"></script>
-    <script src="lib/date list.js"></script>
+
     <script>
       const menuButton = document.getElementById('menu-button');
       const sidebarNav = document.getElementById('sidebar-nav');
@@ -2472,8 +2482,9 @@
                 
 </script>
 <script src="lib/sortMovies.js"></script>
- <script src="lib/year and genre filter.js" defer></script>
+ <script src="lib/filter dropdowns.js" defer></script>
        <!-- Add the no-results-message element -->
 <div id="no-results-message" style="display: none;"></div>
+<script src="lib/Iframe movies.js"></script>
   </body>
 </html>
