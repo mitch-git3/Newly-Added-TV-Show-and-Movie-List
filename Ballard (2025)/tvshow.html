@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Episode List</title>
+</head>
+<body>
+  Library - TV Shows - Ballard
+  <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+  <script type="text/javascript" src="../lib/jquery.js">
+  </script>
+  <link rel="stylesheet" href="../lib/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <script type="text/javascript">
+  //<![CDATA[
+            function sleep(millis)
+             {
+              var date = new Date();
+              var curDate = null;
+              do { curDate = new Date(); }
+              while(curDate-date < millis);
+            }
+            function openEpisode(epID)
+            {
+                $.ajax({
+                    url: 'http://127.0.0.1:8899/jsonrpc?request={"jsonrpc":"2.0","method":"Player.Stop","params":{"playerid":1},"id":1}}',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    crossDomain: true
+                });
+                sleep(500);
+                $.ajax({
+                    url: 'http://127.0.0.1:8899/jsonrpc?request={"jsonrpc":"2.0","method":"Player.Open","id":1,"params":{"item":{"episodeid":'+epID+'}}}',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    crossDomain: true
+                });
+            }
+  //]]>
+  </script>
+  <div id="largeContainer">
+    <div class="infoContainer">
+      <div class="pageLinkContainer">
+        <span class="pageLink pageLink_first"><a href="#" onclick="JavaScript:window.close();">Close</a></span>
+      </div>
+      <div class="infoBackTitleContainer">
+        <span class="infoBackTitle">Ballard</span>
+        <hr class="subTitleSeprator" />
+        <span class="infoBackTitleSub">Episode List</span>
+      </div>
+      <div class="infoContainerTextContainer"></div>
+      <div class="aniEpPosterHead"><img alt="poster" onerror="this.src = &#39;none&#39;;" 
+      src="../images/Ballard%20%282025%29-POSTER.thumb.jpg" /></div><span class="dateInfo"><span>Generated on:</span> </span>
+    </div>
+    <div class="aniEpsContainer">
+
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Ballard%20-%20S01E01%20-%20Library%20of%20Lost%20Souls-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x1 - Library of Lost Souls
+          </div>
+          <div class="plot">Ballard reopens a mysterious John Doe case while pursuing justice for a councilman's murdered sister. As she navigates reluctant witnesses, department politics, and her own demons, Ballard and her team uncover buried secrets that suggest corruption within the police force.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Ballard%20-%20S01E02%20-%20Haystacks-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x2 - Haystacks
+          </div>
+          <div class="plot">Ballard and Parker investigate housekeeper Yulia Kravetz's murder. Meanwhile, the hunt for the serial killer's latest victim reunites Ballard with retired Detective Harry Bosch.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Ballard%20-%20S01E03%20-%20BYOB-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x3 - BYOB
+          </div>
+          <div class="plot">The 2006 death of fraternity member Nick Thatcher was initially ruled an accident. When a video goes viral accusing the fraternity of murder, Ballard and her team are forced to reopen the case.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Ballard%20-%20S01E04%20-%20Landmines-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x4 - Landmines
+          </div>
+          <div class="plot">Ballard uncovers an LAPD conspiracy with connections to a Mexican cartel. The Pearlman case heats up when clues lead to a dangerous showdown with a potential suspect.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Ballard%20-%20S01E05%20-%20What%27s%20Done%20in%20the%20Dark-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x5 - What's Done in the Dark
+          </div>
+          <div class="plot">When the team uncovers disturbing new information in the Pearlman case, they focus in on a new suspect.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Ballard%20-%20S01E06%20-%20Beneath%20the%20Surface-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x6 - Beneath the Surface
+          </div>
+          <div class="plot">Ballard's serial killer investigation takes a high-stakes turn. With 72 hours to secure the case before it's transferred to Homicide, the team races to find connections between the victims.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Ballard%20-%20S01E07%20-%20Fork%20in%20the%20Road-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x7 - Fork in the Road
+          </div>
+          <div class="plot">Bosch delivers a shocking lead in the LAPD corruption case. Ballard and team dive into the mysterious murder of a teenager with ties to a local gang.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Ballard%20-%20S01E08%20-%20Last%20Call-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x8 - Last Call
+          </div>
+          <div class="plot">The Ibarra case turns personal as Martina discovers someone close to her is part of the corrupt LAPD ring. The team races to identify the remaining corrupt officers before time runs out.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Ballard%20-%20S01E09%20-%20Collateral-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x9 - Collateral
+          </div>
+          <div class="plot">A fresh lead turns into a shocking revelation as the team learns their serial killer has been in their grasp the whole time.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Ballard%20-%20S01E10%20-%20End%20of%20the%20Line-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x10 - End of the Line
+          </div>
+          <div class="plot">A city-wide manhunt begins for Rawls's shooter. Ballard receives an unexpected update on the LAPD conspiracy case.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+
+      <div class="footerSpacer"></div>
+      <div class="footerContainer">
+        <div class="footerTextContainer">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

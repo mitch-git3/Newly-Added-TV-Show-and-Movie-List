@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Episode List</title>
+</head>
+<body>
+  Library - TV Shows - Project Blue Book
+  <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+  <script type="text/javascript" src="../lib/jquery.js">
+  </script>
+  <link rel="stylesheet" href="../lib/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <script type="text/javascript">
+  //<![CDATA[
+            function sleep(millis)
+             {
+              var date = new Date();
+              var curDate = null;
+              do { curDate = new Date(); }
+              while(curDate-date < millis);
+            }
+            function openEpisode(epID)
+            {
+                $.ajax({
+                    url: 'http://127.0.0.1:8899/jsonrpc?request={"jsonrpc":"2.0","method":"Player.Stop","params":{"playerid":1},"id":1}}',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    crossDomain: true
+                });
+                sleep(500);
+                $.ajax({
+                    url: 'http://127.0.0.1:8899/jsonrpc?request={"jsonrpc":"2.0","method":"Player.Open","id":1,"params":{"item":{"episodeid":'+epID+'}}}',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    crossDomain: true
+                });
+            }
+  //]]>
+  </script>
+  <div id="largeContainer">
+    <div class="infoContainer">
+      <div class="pageLinkContainer">
+        <span class="pageLink pageLink_first"><a href="#" onclick="JavaScript:window.close();">Close</a></span>
+      </div>
+      <div class="infoBackTitleContainer">
+        <span class="infoBackTitle">Project Blue Book</span>
+        <hr class="subTitleSeprator" />
+        <span class="infoBackTitleSub">Episode List</span>
+      </div>
+      <div class="infoContainerTextContainer"></div>
+      <div class="aniEpPosterHead"><img alt="poster" onerror="this.src = &#39;none&#39;;" 
+      src="../images/Project%20Blue%20Book%20%282019%29-POSTER.thumb.jpg" /></div><span class="dateInfo"><span>Generated on:</span> </span>
+    </div>
+    <div class="aniEpsContainer">
+
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S01E01%20-%20The%20Fuller%20Dogfight-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x1 - The Fuller Dogfight
+          </div>
+          <div class="plot">Ohio State astrophysicist Dr. Allen Hynek is recruited by the Air Force into their top-secret program investigating UFOs called Project Blue Book. Partnered with Captain Michael Quinn, they investigate the case of a military pilot who survived a dogfight with an alien craft. Based on the &quot;Gorman Dogfight&quot; case.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S01E02%20-%20The%20Flatwoods%20Monster-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x2 - The Flatwoods Monster
+          </div>
+          <div class="plot">Dr. Hynek and Captain Quinn investigate a West Virginia case of a woman and her two children who witnessed a flying saucer crash near their farm and an alien being emerge from the fiery wreck; based on the Flatwoods Monster case.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S01E03%20-%20The%20Lubbock%20Lights-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x3 - The Lubbock Lights
+          </div>
+          <div class="plot">When the citizens of Lubbock, Texas witness a mysterious V-shaped craft in the night sky, Hynek and Quinn are brought in to investigate the mass sighting. Based on the &ldquo;Lubbock Lights&rdquo; case.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S01E04%20-%20Operation%20Paperclip-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x4 - Operation Paperclip
+          </div>
+          <div class="plot">Quinn and Hynek are lead into a secret program involving the Operation Paperclip.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S01E05%20-%20Foo%20Fighters-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x5 - Foo Fighters
+          </div>
+          <div class="plot">Quinn and Hynek follow clues that lead them to a secret group who have witnessed strange lights.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S01E06%20-%20The%20Green%20Fireballs-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x6 - The Green Fireballs
+          </div>
+          <div class="plot">Mysterious green fireballs nearly cause a nuclear disaster during a weapons test, and Hynek and Quinn must investigate how it could have occurred.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S01E07%20-%20The%20Scoutmaster-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x7 - The Scoutmaster
+          </div>
+          <div class="plot">After a Scoutmaster vanishes when he and his troop witness a strange craft hovering in the woods, Hynek is sent to investigate for Project Blue Book, while Quinn is pulled into a rogue mission for General Harding.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S01E08%20-%20War%20Games-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x8 - War Games
+          </div>
+          <div class="plot">When a film emerges documenting an Army platoon under UFO attack, the Generals send Hynek and Quinn in to investigate, where they find the soldiers not only suffer from physical effects of war, but psychological ones as well.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S01E09%20-%20Abduction-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x9 - Abduction
+          </div>
+          <div class="plot">Hynek is drawn into a case from which he literally can't escape when a man arrives at Blue Book headquarters with his wife. The man claims he was abducted by aliens, and he plans to hold Hynek and Quinn hostage until he learns the truth.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S01E10%20-%20The%20Washington%20Merry-Go%20Round-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x10 - The Washington Merry-Go Round
+          </div>
+          <div class="plot">Washington D.C. is invaded by UFOs, and Hynek and Quinn must uncover the true nature of the threat before it's too late.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S02E01%20-%20The%20Roswell%20Incident%20%281%29-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x1 - The Roswell Incident (1)
+          </div>
+          <div class="plot">Hynek and Quinn follow General Harding to Roswell, New Mexico, where an anonymous townsperson has threatened to expose evidence to the world of an extraterrestrial crash-landing six years ago.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S02E02%20-%20The%20Roswell%20Incident%20%282%29-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x2 - The Roswell Incident (2)
+          </div>
+          <div class="plot">Hynek and Quinn nearly reach a potential culprit, which could take them to just where they need to be to discover the truth behind the famous Roswell incident.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S02E03%20-%20Area%2051-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x3 - Area 51
+          </div>
+          <div class="plot">Hynek and Quinn investigate reports of a soldier who was allegedly taken inside a flying saucer at a remote military base in Nevada, where they subsequently learn about the several reasons why the secrets contained in Area 51 should not be released.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S02E04%20-%20Hopkinsville-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x4 - Hopkinsville
+          </div>
+          <div class="plot">A supposed alien invades a rural home in Kentucky, which prompts the CIA to give Hynek and Quinn access to their top-secret program known as MK Ultra, which asserts that the alien attack has the potential to be the beginning of a larger plan.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S02E05%20-%20The%20Men%20in%20Black-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x5 - The Men in Black
+          </div>
+          <div class="plot">The mysterious Man in Black kidnaps Hynek, which sends Quinn on a mission with the CIA to follow him and rescue Hynek.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S02E06%20-%20Close%20Encounters-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x6 - Close Encounters
+          </div>
+          <div class="plot">While reminiscing on the set of `Close Encounters of the Third Kind', Hynek recounts his experiences with the infamous Robertson Panel and the eccentric alien contactee for whom he put everything on the line.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S02E07%20-%20Curse%20of%20the%20Skinwalker-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x7 - Curse of the Skinwalker
+          </div>
+          <div class="plot">Hynek and Quinn head to a Utah ranch to investigate a young family&rsquo;s claims of unexplainable and dangerous phenomena.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S02E08%20-%20What%20Lies%20Beneath-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x8 - What Lies Beneath
+          </div>
+          <div class="plot">When sensitive material is stolen from Generals Harding and Valentine, Hynek and Quinn realize that their culprit is far closer to home than they could imagine, but so is undeniable evidence of a UFO conspiracy.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S02E09%20-%20Broken%20Arrow-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x9 - Broken Arrow
+          </div>
+          <div class="plot">When Hynek and Quinn track down a mysterious plane that has vanished in the Canadian wilderness, they must embark on a dangerous mission to recover its missing cargo.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Project%20Blue%20Book%20-%20S02E10%20-%20Operation%20Mainbrace-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x10 - Operation Mainbrace
+          </div>
+          <div class="plot">Strange interlopers in the sky and sea, and the actions of a rogue admiral, threaten to turn a naval exercise into World War III. It's up to Hynek and Quinn to stop the rogue admiral.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+
+      <div class="footerSpacer"></div>
+      <div class="footerContainer">
+        <div class="footerTextContainer">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

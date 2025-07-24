@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Episode List</title>
+</head>
+<body>
+  Library - TV Shows - The Day of the Jackal
+  <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+  <script type="text/javascript" src="../lib/jquery.js">
+  </script>
+  <link rel="stylesheet" href="../lib/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <script type="text/javascript">
+  //<![CDATA[
+            function sleep(millis)
+             {
+              var date = new Date();
+              var curDate = null;
+              do { curDate = new Date(); }
+              while(curDate-date < millis);
+            }
+            function openEpisode(epID)
+            {
+                $.ajax({
+                    url: 'http://127.0.0.1:8899/jsonrpc?request={"jsonrpc":"2.0","method":"Player.Stop","params":{"playerid":1},"id":1}}',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    crossDomain: true
+                });
+                sleep(500);
+                $.ajax({
+                    url: 'http://127.0.0.1:8899/jsonrpc?request={"jsonrpc":"2.0","method":"Player.Open","id":1,"params":{"item":{"episodeid":'+epID+'}}}',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    crossDomain: true
+                });
+            }
+  //]]>
+  </script>
+  <div id="largeContainer">
+    <div class="infoContainer">
+      <div class="pageLinkContainer">
+        <span class="pageLink pageLink_first"><a href="#" onclick="JavaScript:window.close();">Close</a></span>
+      </div>
+      <div class="infoBackTitleContainer">
+        <span class="infoBackTitle">The Day of the Jackal</span>
+        <hr class="subTitleSeprator" />
+        <span class="infoBackTitleSub">Episode List</span>
+      </div>
+      <div class="infoContainerTextContainer"></div>
+      <div class="aniEpPosterHead"><img alt="poster" onerror="this.src = &#39;none&#39;;" 
+      src="../images/The%20Day%20of%20the%20Jackal%20%282024%29-POSTER.thumb.jpg" /></div><span class="dateInfo"><span>Generated on:</span> </span>
+    </div>
+    <div class="aniEpsContainer">
+
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/The%20Day%20of%20the%20Jackal%20-%20S01E01%20-%20Episode%201-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x1 - Episode 1
+          </div>
+          <div class="plot">When an elite assassin carries out a kill, it catches the attention of an intelligence officer, who starts to hunt him down.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/The%20Day%20of%20the%20Jackal%20-%20S01E02%20-%20Episode%202-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x2 - Episode 2
+          </div>
+          <div class="plot">With his client backing out of payment, the Jackal's reputation is on the line, and he starts to plot his revenge.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/The%20Day%20of%20the%20Jackal%20-%20S01E03%20-%20Episode%203-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x3 - Episode 3
+          </div>
+          <div class="plot">Armed with the knowledge of his wayward client's identity, the Jackal tracks him down in Munich, determined to settle the score.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/The%20Day%20of%20the%20Jackal%20-%20S01E04%20-%20Episode%204-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x4 - Episode 4
+          </div>
+          <div class="plot">His vengeance fulfilled, the Jackal flees Munich and tries to quell Nuria's suspicions. Bianca follows a new lead in her hunt.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/The%20Day%20of%20the%20Jackal%20-%20S01E05%20-%20Episode%205-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x5 - Episode 5
+          </div>
+          <div class="plot">The Jackal visits Norman with a special commission... but with Bianca also tracking Norman down, she is starting to close in on him.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/The%20Day%20of%20the%20Jackal%20-%20S01E06%20-%20Episode%206-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x6 - Episode 6
+          </div>
+          <div class="plot">Following his shootout with Bianca, the Jackal must escape his captors and regroup ahead of his next hit, as Bianca follows his trail.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/The%20Day%20of%20the%20Jackal%20-%20S01E07%20-%20Episode%207-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x7 - Episode 7
+          </div>
+          <div class="plot">The Jackal and Bianca head to Tallinn before UDC's announcement. The Jackal must use all his wiles as he prepares to take his shot.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/The%20Day%20of%20the%20Jackal%20-%20S01E08%20-%20Episode%208-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x8 - Episode 8
+          </div>
+          <div class="plot">Bianca gains insight into a secret file. She learns the true identity of the Jackal and how he became a contract killer.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/The%20Day%20of%20the%20Jackal%20-%20S01E09%20-%20Episode%209-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x9 - Episode 9
+          </div>
+          <div class="plot">With the release of River imminent, UDC believes himself safe. As time runs out, the Jackal must use all his skills to reach his target.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/The%20Day%20of%20the%20Jackal%20-%20S01E10%20-%20Episode%2010-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x10 - Episode 10
+          </div>
+          <div class="plot">A wanted man, the Jackal is on the run, desperate to get back to Nuria, but Bianca is given one last shot to bring him to justice.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+
+      <div class="footerSpacer"></div>
+      <div class="footerContainer">
+        <div class="footerTextContainer">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
