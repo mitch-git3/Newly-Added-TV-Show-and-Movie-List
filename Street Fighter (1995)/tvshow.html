@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Episode List</title>
+</head>
+<body>
+  Library - TV Shows - Street Fighter
+  <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+  <script type="text/javascript" src="../lib/jquery.js">
+  </script>
+  <link rel="stylesheet" href="../lib/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <script type="text/javascript">
+  //<![CDATA[
+            function sleep(millis)
+             {
+              var date = new Date();
+              var curDate = null;
+              do { curDate = new Date(); }
+              while(curDate-date < millis);
+            }
+            function openEpisode(epID)
+            {
+                $.ajax({
+                    url: 'http://127.0.0.1:8899/jsonrpc?request={"jsonrpc":"2.0","method":"Player.Stop","params":{"playerid":1},"id":1}}',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    crossDomain: true
+                });
+                sleep(500);
+                $.ajax({
+                    url: 'http://127.0.0.1:8899/jsonrpc?request={"jsonrpc":"2.0","method":"Player.Open","id":1,"params":{"item":{"episodeid":'+epID+'}}}',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    crossDomain: true
+                });
+            }
+  //]]>
+  </script>
+  <div id="largeContainer">
+    <div class="infoContainer">
+      <div class="pageLinkContainer">
+        <span class="pageLink pageLink_first"><a href="#" onclick="JavaScript:window.close();">Close</a></span>
+      </div>
+      <div class="infoBackTitleContainer">
+        <span class="infoBackTitle">Street Fighter</span>
+        <hr class="subTitleSeprator" />
+        <span class="infoBackTitleSub">Episode List</span>
+      </div>
+      <div class="infoContainerTextContainer"></div>
+      <div class="aniEpPosterHead"><img alt="poster" onerror="this.src = &#39;none&#39;;" 
+      src="../images/Street%20Fighter%20%281995%29-POSTER.thumb.jpg" /></div><span class="dateInfo"><span>Generated on:</span> </span>
+    </div>
+    <div class="aniEpsContainer">
+
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x1 - The Adventure Begins
+          </div>
+          <div class="plot">William Guile organizes a team of martial artists to take on a criminal who's stolen a dangerous biological virus.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x2 - The Strongest Woman in the World
+          </div>
+          <div class="plot">Bison takes over a nuclear facility in China; Guile assigns Blanka and Chun-Li to stop Bison, but Chun-Li has revenge on her mind.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x3 - Getting to Guile
+          </div>
+          <div class="plot">Guile is captured when he and Dee Jay are ambushed by Bison; Bison tries to brainwash Guile so he'll destroy the team.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x4 - No Way Out
+          </div>
+          <div class="plot">Blanka, Chun-Li and Guile set out to rescue a young boy that gets trapped in a building.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x5 - Demon Island
+          </div>
+          <div class="plot">Bison steals a top secret military plane that can turn invisible at the push of a button.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x6 - Desert Thunder
+          </div>
+          <div class="plot">A military laser gets stolen by Satin Hammer and T. Hawk; T. Hawk gets confronted.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x7 - Dark Heart
+          </div>
+          <div class="plot">Bison demands a huge sum of money and uses his powers to redirect a comet toward Earth.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x8 - The Medium is the Message
+          </div>
+          <div class="plot">Escher sends the Street Fighters to India to compete in a Street Fighter tournament.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x9 - Eye of the Beholder
+          </div>
+          <div class="plot">After concocting a serum, a scientist is captured and held for ransom by Vega.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x10 - The Hand That Feeds You
+          </div>
+          <div class="plot">Sachi goes missing in Hong Kong while the Street Fighters are investigating a local drug operation.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x11 - Keeping the Peace
+          </div>
+          <div class="plot">A small city is in chaos after rare diamonds are found to be rich in the region.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x12 - Chunnel Vision
+          </div>
+          <div class="plot">Delta Red captures Bison; Zangief places bombs in a tunnel that connects a train track between England and France.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            1x13 - Strange Bedfellows
+          </div>
+          <div class="plot">A mysterious warrior starts destroying strongholds; Akuma wants Bison and Guile to fight each other.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x1 - The Hammer Strikes
+          </div>
+          <div class="plot">Dhalsim asks the Street Fighters to stop the Satin Hammer from stealing an atomic bomb.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x2 - Cammy and the Bachelor
+          </div>
+          <div class="plot">A crime wave takes over London; during a fight, Bison seemingly takes over Cammy's mind.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x3 - New Kind of Evil
+          </div>
+          <div class="plot">Mysterious mutant assailants attack Chun-Li and kidnap her TV crew.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x4 - The World&rsquo;s Greatest Warrior
+          </div>
+          <div class="plot">Akuma challenges Ryu and Ken; Ken injures Ryu's left arm while training.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x5 - So, You Want to Be in Pictures
+          </div>
+          <div class="plot">Ryu and Ken are asked to help Fei Long with a movie project; Ken writes himself in as the star.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x6 - Face of Fury
+          </div>
+          <div class="plot">Vega escapes and flies to Hawaii for a final battle; Mei Lei is taken hostage.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x7 - Cammy Must Die!
+          </div>
+          <div class="plot">Bison charges Cammy and La Lupa to steal a priceless Kali statue for him.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x8 - The Flame and the Rose
+          </div>
+          <div class="plot">Rose senses many powers fluctuating out of control; Rose kidnaps Ken and Blanka.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x9 - The Warrior King
+          </div>
+          <div class="plot">Bison threatens the world with an orb that has the power to control all weather.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x10 - The Beast Within
+          </div>
+          <div class="plot">While searching for a mysterious healing plant, Blanka encounters a wild jungle boy who swears revenge against the natives for killing his family.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x11 - Second to None
+          </div>
+          <div class="plot">Sagat burns down buildings that have posters of Ryu; Sakura convinces Ryu to fight Sagat.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x12 - Final Fight
+          </div>
+          <div class="plot">A ruthless street gang known as Mad Gear kidnaps Mayor Mike Haggar's daughter.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/../../images/icons/noPoster.jpg" /></div>
+          <div class="title">
+            2x13 - Cammy Tell Me True
+          </div>
+          <div class="plot">Bison captures Delta Red; Bison compiles doomsday codes; Sagat gives Guile and Chun-Li a package that contains the secret of Cammy's past.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+
+      <div class="footerSpacer"></div>
+      <div class="footerContainer">
+        <div class="footerTextContainer">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

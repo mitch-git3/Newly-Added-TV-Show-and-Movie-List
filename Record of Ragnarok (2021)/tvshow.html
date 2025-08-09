@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Episode List</title>
+</head>
+<body>
+  Library - TV Shows - Record of Ragnarok
+  <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+  <script type="text/javascript" src="../lib/jquery.js">
+  </script>
+  <link rel="stylesheet" href="../lib/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <script type="text/javascript">
+  //<![CDATA[
+            function sleep(millis)
+             {
+              var date = new Date();
+              var curDate = null;
+              do { curDate = new Date(); }
+              while(curDate-date < millis);
+            }
+            function openEpisode(epID)
+            {
+                $.ajax({
+                    url: 'http://127.0.0.1:8899/jsonrpc?request={"jsonrpc":"2.0","method":"Player.Stop","params":{"playerid":1},"id":1}}',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    crossDomain: true
+                });
+                sleep(500);
+                $.ajax({
+                    url: 'http://127.0.0.1:8899/jsonrpc?request={"jsonrpc":"2.0","method":"Player.Open","id":1,"params":{"item":{"episodeid":'+epID+'}}}',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    crossDomain: true
+                });
+            }
+  //]]>
+  </script>
+  <div id="largeContainer">
+    <div class="infoContainer">
+      <div class="pageLinkContainer">
+        <span class="pageLink pageLink_first"><a href="#" onclick="JavaScript:window.close();">Close</a></span>
+      </div>
+      <div class="infoBackTitleContainer">
+        <span class="infoBackTitle">Record of Ragnarok</span>
+        <hr class="subTitleSeprator" />
+        <span class="infoBackTitleSub">Episode List</span>
+      </div>
+      <div class="infoContainerTextContainer"></div>
+      <div class="aniEpPosterHead"><img alt="poster" onerror="this.src = &#39;none&#39;;" 
+      src="../images/Record%20of%20Ragnarok%20%282021%29-POSTER.thumb.jpg" /></div><span class="dateInfo"><span>Generated on:</span> </span>
+    </div>
+    <div class="aniEpsContainer">
+
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E01%20-%20Ragnarok-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x1 - Ragnarok
+          </div>
+          <div class="plot">At the Council of Valhalla, the gods vote unanimously for humankind's extinction. But Br&uuml;nnhilde, eldest of the Valkyrie sisters, raises her objection.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E02%20-%20Worthy%20Opponent-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x2 - Worthy Opponent
+          </div>
+          <div class="plot">In the first round of the Ragnarok battle, Han dynasty warlord L&uuml; Bu puts up a good fight against Norse god Thor, surprising the gods in attendance.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E03%20-%20Killer%20Move-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x3 - Killer Move
+          </div>
+          <div class="plot">To give L&uuml; Bu the upper hand against Thor, Br&uuml;nnhilde summons her sister Randgriz and asks her to transform into a sacred weapon &mdash; the Shield Breaker.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E04%20-%20Joy-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x4 - Joy
+          </div>
+          <div class="plot">L&uuml; Bu&rsquo;s legs are crushed by the mighty Geirr&ouml;d Thor's Hammer attack, but just when all hope seems lost, the warlord&rsquo;s trusty horse Red Hare rides in.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E05%20-%20FILE%20No.00000000001-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x5 - FILE No.00000000001
+          </div>
+          <div class="plot">Chosen for the next round is the father of humankind and the man bearing more hatred towards the gods than anyone else: Adam himself.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E06%20-%20Great%20Emulation-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x6 - Great Emulation
+          </div>
+          <div class="plot">Zeus insists on going up against Adam, who joins forces with Valkyrie Reginleif to obtain a most peculiar weapon: a knuckleduster.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E07%20-%20Expelled%20from%20Paradise-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x7 - Expelled from Paradise
+          </div>
+          <div class="plot">Just when it looks like Adam will earn humankind the victory they long for, Zeus gathers his strength to ask Adam why he's really fighting.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E08%20-%20Grace%20Abounding-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x8 - Grace Abounding
+          </div>
+          <div class="plot">Zeus has transformed into his final most powerful form, but after the beating he's suffered, he may not last much longer in the fight.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E09%20-%20Tyrant%20of%20the%20Ocean-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x9 - Tyrant of the Ocean
+          </div>
+          <div class="plot">Humankind is desperate to win the next bout, but the god they're going up against is one of the mightiest of them all: Poseidon
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E10%20-%20Greatest%20Loser-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x10 - Greatest Loser
+          </div>
+          <div class="plot">Kojiro Sasaki uses his mighty Tsubame Gaeshi move to finish off Poseidon, but the god of the sea won't be sunk so easily.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E11%20-%20The%20Swallow%20Gazes%20into%20the%20Abyss-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x11 - The Swallow Gazes into the Abyss
+          </div>
+          <div class="plot">Through the power of Valkyrie Hrist, Kojiro's broken blade is transformed into dual swords, allowing him to tap into the depths of his inner strength.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S01E12%20-%20And%20Ragnarok%20Goes%20On-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            1x12 - And Ragnarok Goes On
+          </div>
+          <div class="plot">Despite Kojiro's Niten Ganryu duel blade method, Poseidon's powerful attacks continue to wear him down. But the battle isn't over yet.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E01%20-%20Good%20vs.%20Evil-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x1 - Good vs. Evil
+          </div>
+          <div class="plot">The gods have no intention of letting the humans win the next round; for their next fighter, they present none other than the great hero, Hercules.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E02%20-%20The%20Indomitable%20War%20God-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x2 - The Indomitable War God
+          </div>
+          <div class="plot">The spectators notice that the tattoos on Hercules have grown significantly &mdash; and if they continue to grow, the hero will suffer a painful death.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E03%20-%20Birth%20of%20a%20Monster-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x3 - Birth of a Monster
+          </div>
+          <div class="plot">In late 19th century London, the young son of a prostitute has a special ability that helps him survive the poverty he was born into.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E04%20-%20The%20Final%20Labor-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x4 - The Final Labor
+          </div>
+          <div class="plot">Although he&rsquo;s lost his left arm, Hercules remains steadfast, easily summoning the strength to unleash his ultimate move: the Twelfth Labor.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E05%20-%20Requiem-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x5 - Requiem
+          </div>
+          <div class="plot">The brutal fourth round has pushed both fighters beyond their breaking point; when the winner is finally announced, there is no joy or celebration.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E06%20-%20Conflicting%20Motives-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x6 - Conflicting Motives
+          </div>
+          <div class="plot">To capitalize on humanity's momentum, Br&uuml;nnhilde pays a visit to the colossal Tameemon Raiden, the most powerful sumo wrestler in history.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E07%20-%20Hundred%20Seals-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x7 - Hundred Seals
+          </div>
+          <div class="plot">Stepping into the sumo ring to take on Tameemon Raiden is the God of Destruction, the Destroyer himself: Supreme Lord Shiva.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E08%20-%20The%20Pinnacle%20of%201116-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x8 - The Pinnacle of 1116
+          </div>
+          <div class="plot">Years ago, Shiva spent many happy days with his best friend Rudra. Then one day, Rudra asks Shiva to join him on a journey to the top.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E09%20-%20Resonance-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x9 - Resonance
+          </div>
+          <div class="plot">As a child, Raiden had to suppress his full strength so he wouldn&rsquo;t hurt other people. But now, to win this battle, he&rsquo;s not holding anything back.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E10%20-%20The%20Brink-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x10 - The Brink
+          </div>
+          <div class="plot">The match comes to a moving end. Even Zeus is impressed by humanity's powerful spirit; but he's going to make sure the gods get the ultimate victory.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E11%20-%20Round%20Six-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x11 - Round Six
+          </div>
+          <div class="plot">With the scoreboard almost neck-and-neck, Buddha declares that he'll fight in the next round &mdash; but whose side will he be fighting on?
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E12%20-%20Zero-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x12 - Zero
+          </div>
+          <div class="plot">Struck by the amount of suffering humans must endure, Zerofuku decides to absorb all of their unhappiness, but it still isn't enough to end their pain.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E13%20-%20The%20strongest%20puberty%20in%20history-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x13 - The strongest puberty in history
+          </div>
+          <div class="plot">There was once a prince who was born into great wealth and given the very best of everything. But one day, he decides to leave it all behind.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E14%20-%20Legend%20of%20the%20Underworld-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x14 - Legend of the Underworld
+          </div>
+          <div class="plot">Nobody knows who the strange new creature is, but he's clearly very strong. And most worryingly, Buddha can't foresee his new opponent's next moves.
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+      <div class="aniEpItemWrapper">
+        <div class="aniEpItemContainer">
+          <div class="epThumb"><img onerror="this.style.visibility=&#39;hidden&#39;;" src=
+          "../images/epthumbs/Record%20of%20Ragnarok%20-%20S02E15%20-%20The%20Way%20of%20Light-THUMB.thumb.jpg" /></div>
+          <div class="title">
+            2x15 - The Way of Light
+          </div>
+          <div class="plot">It looks like the match is over. But then Buddha gets up, looking stronger than ever. Will he be able to gain another crucial point for the humans?
+          </div>
+          <div class="quality"></div>
+        </div>
+      </div>
+  
+
+      <div class="footerSpacer"></div>
+      <div class="footerContainer">
+        <div class="footerTextContainer">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
