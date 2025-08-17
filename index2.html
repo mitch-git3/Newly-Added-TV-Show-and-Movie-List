@@ -39,19 +39,39 @@
        </ul>
        </div>
       <div class="infoContainer">
-         <div id="searchContainer">
+        <div class="homepage-link-container">
+           <!-- add home button -->
+       <a href="https://mitch-git5.github.io/homepage-one-stop-tv-delight-/index.html" class="homepage-link">Home Button</a>
+         </div>
+        <div class="infoBackTitleContainer">
+          <span class="infoBackTitle">Newly Added</span>
+          <hr class="subTitleSeprator" />
+          <span class="infoBackTitleSub">TV Shows</span>
+        </div>
+        <div class="infoContainerTextContainer">
+          <div class="name">
+            <span class="titleNoBlock">Total TV Shows:</span>
+            <span>40</span>
+          </div>
+          <div class="name">
+            <span class="titleNoBlock">Request Page Link:</span>
+            <span><a href="https://forms.gle/rbLCy1hxpxC5SXG1A"target="_blank">Request File</a></span>
+          </div>
+          <div class="name">
+            <span class="titleNoBlock">Top 10 Picked TV Shows This Month:</span>
+            <span><a href="https://mitch-git5.github.io/homepage-one-stop-tv-delight-/index1.html"target="_blank">Top 10</a></span>
+          </div>
+        </div>
+      </div>
+        <div id="searchContainer">
         <input type="text" autocomplete="off" onfocus="this.value=''; searchOnPage('');"
         onblur="if(this.value==''){this.value='Search TV Show Name'};"
         onkeyup="searchOnPage(this.value.toLowerCase());"
         id="search_box" value="Search TV Show Name" />
         <input type="submit" id="search_button" value="Search" />
         <div id="search_result"></div>
-        <div class="homepage-link-container">
-           <!-- add home button -->
-       <a href="https://mitch-git5.github.io/homepage-one-stop-tv-delight-/index.html" class="homepage-link">Home Button</a>
-         </div>
-         </div>
-         <div class="dropdown-container">
+        </div>
+        <div class="dropdown-container">
          <div id="genre-select-container">
          <label for="genre-select" class="genre-label">Search By Genre:</label>
          <select id="genre-select">
@@ -70,27 +90,13 @@
          <option value="all">All</option>
         </select>
         </div>
+        <div id="rating-select-container">
+        <label for="rating-select" class="rating-label">Search By Rating:</label>
+        <select id="rating-select">
+        <option value="all">All</option>
+        </select>
         </div>
-        <div class="infoBackTitleContainer">
-          <span class="infoBackTitle">Newly Added</span>
-          <hr class="subTitleSeprator" />
-          <span class="infoBackTitleSub">TV Shows</span>
         </div>
-        <div class="infoContainerTextContainer">
-          <div class="name">
-            <span class="titleNoBlock">Total TV Shows:</span>
-            <span>40</span>
-          </div>
-          <div class="name">
-            <span class="titleNoBlock">Request Page Link:</span>
-            <span><a href="https://forms.gle/rbLCy1hxpxC5SXG1A"target="_blank">Request File</a></span>
-          </div>
-          <div class="name">
-            <span class="titleNoBlock">Top 10 Picked TV Shows This Month:</span>
-            <span><a href="https://mitch-git5.github.io/homepage-one-stop-tv-delight-/index1.html"target="_blank">Top 10</span>
-          </div>
-        </div>
-      </div>
        <div id="no-results-message" class="no-results-message"></div>
       
 
@@ -2936,6 +2942,7 @@ menuButton.addEventListener('click', () => {
 </script>
  <script src="lib/sortShows.js"></script>
  <script src="lib/filter dropdowns.js" defer></script>
+ <script src="lib/rating-filter.js" defer></script>
        <!-- Add the no-results-message element -->
 <div id="no-results-message" style="display: none;"></div>
 <script src="lib/Iframe tv shows.js"></script>
